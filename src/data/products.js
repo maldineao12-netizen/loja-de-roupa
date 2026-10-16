@@ -3,184 +3,175 @@ export const PRODUCTS = [
     id: '1',
     category: 'MEN',
     subCategory: 'JACKETS',
-    name: 'adidas X Pop Polo shirt, navy / blue',
-    price: 69.99,
-    originalPrice: null,
-    rating: 4.8,
-    reviews: 12,
-    badge: 'NEW',
-    // Clean navy blue polo shirt with stripes
-    image: 'https://images.unsplash.com/photo-1625910513413-6fc222223018?q=80&w=800&auto=format&fit=crop',
-    description: 'Camisa polo premium em tom azul marinho com listras horizontais sutis e corte urbano moderno.'
+    name: 'Jaqueta Bomber Essência Luanda - Azul Royal',
+    price: 45000,
+    originalPrice: 55000,
+    rating: 4.9,
+    reviews: 24,
+    badge: 'NOVO',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop',
+    description: 'Jaqueta bomber urbana premium com caimento ajustado, tecido impermeável e acabamento impecável em tom azul royal.'
   },
   {
     id: '2',
     category: 'SHOES',
     subCategory: 'SNEAKERS',
-    name: 'adidas x Pop TRX Vintage, navy / white',
-    price: 69.99,
-    originalPrice: 89.99,
+    name: 'Tênis Urban Step Minimalist White & Blue',
+    price: 38000,
+    originalPrice: 48000,
     rating: 4.9,
-    reviews: 28,
-    badge: null,
-    // Navy & white vintage sneakers
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop',
-    description: 'Tênis vintage esportivo retrô em azul marinho com detalhes brancos clássicos.'
+    reviews: 36,
+    badge: 'PROMO',
+    image: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=800&auto=format&fit=crop',
+    description: 'Tênis de couro legítimo com sola vulcanizada, design ergonômico para o ritmo da cidade de Luanda.'
   },
   {
     id: '3',
     category: 'MEN',
     subCategory: 'JACKETS',
-    name: 'adidas X Pop Beckenbauer Track Jacket',
-    price: 120.00,
+    name: 'Sobretudo Minimalista Essência Wool',
+    price: 78000,
     originalPrice: null,
     rating: 5.0,
-    reviews: 45,
-    badge: 'BESTSELLER',
-    // Navy blue track jacket with zip and stripes
-    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop',
-    description: 'Jaqueta esportiva azul marinho com gola alta, zíper frontal e listras contrastantes.'
+    reviews: 42,
+    badge: 'MAIS VENDIDO',
+    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop',
+    description: 'Casaco estruturado em tom neutro refinado, ideal para composições elegantes e noite urbana.'
   },
   {
     id: '4',
     category: 'MEN',
     subCategory: 'TEES',
-    name: 'adidas X Pop Classic t-shirt, grey / navy',
-    price: 120.00,
+    name: 'Camiseta Heavyweight Cotton Essência Black',
+    price: 18000,
     originalPrice: null,
-    rating: 4.7,
+    rating: 4.8,
     reviews: 19,
     badge: null,
-    // Grey t-shirt with navy detail
-    image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop',
-    description: 'Camiseta cinza mescla em algodão encorpado de alta gramatura com detalhes minimalistas.'
+    image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop',
+    description: 'Camiseta de algodão de alta gramatura (240g/m²) com bordado discreto do logotipo Essência no peito.'
   },
   {
     id: '5',
     category: 'ACCESSORIES',
     subCategory: 'CAPS',
-    name: 'adidas X Pop SL Cap, navy / white',
-    price: 55.00,
-    originalPrice: null,
-    rating: 4.6,
-    reviews: 14,
+    name: 'Boné Strapback Essência Streetwear Navy',
+    price: 12000,
+    originalPrice: 15000,
+    rating: 4.7,
+    reviews: 15,
     badge: null,
-    // Navy cap
     image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop',
-    description: 'Boné aba curva em tom azul marinho profundo com estrutura ajustável streetwear.'
+    description: 'Boné de fita ajustável em sarja 100% algodão, estrutura firme e aba pré-curvada.'
   },
   {
     id: '6',
     category: 'MEN',
     subCategory: 'HOODIES',
-    name: 'Butter Yard Pullover Hood, denim',
-    price: 120.00,
-    originalPrice: 140.00,
+    name: 'Moletom Canguru Essência Urban Oversized',
+    price: 35000,
+    originalPrice: 42000,
     rating: 4.9,
-    reviews: 32,
+    reviews: 29,
     badge: 'POPULAR',
-    // Dark denim blue hoodie
     image: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=800&auto=format&fit=crop',
-    description: 'Moletom com capuz e bolso canguru no tom azul denim, confeccionado em algodão felpudo.'
+    description: 'Moletom felpudo interior com capuz amplo, estilo relaxed fit confortável e moderno.'
   },
   {
     id: '7',
     category: 'WOMEN',
     subCategory: 'TEES',
-    name: 'Parra Rug Pull t-shirt, white',
-    price: 60.00,
+    name: 'Top & Blazer Set Essência Chic - Luanda Edition',
+    price: 62000,
     originalPrice: null,
-    rating: 4.8,
-    reviews: 21,
-    badge: null,
-    // Clean white t-shirt with art graphic
-    image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=800&auto=format&fit=crop',
-    description: 'Camiseta branca oversize com estampa artística contemporânea no peito e costas.'
+    rating: 4.9,
+    reviews: 31,
+    badge: 'DESTAQUE',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop',
+    description: 'Conjunto alfaiataria urbana contemporânea para mulheres exigentes. Elegância e autenticidade.'
   },
   {
     id: '8',
-    category: 'MEN',
-    subCategory: 'SWEATSHIRTS',
-    name: 'Carhartt L/S DeadKebab Knock Knock Sweat',
-    price: 130.00,
-    originalPrice: null,
+    category: 'BAGS',
+    subCategory: 'BACKPACKS',
+    name: 'Bolsa de Ombro Leather Essência Luxe',
+    price: 49000,
+    originalPrice: 65000,
     rating: 5.0,
     reviews: 18,
-    badge: null,
-    // Light grey sweatshirt with graphic
-    image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800&auto=format&fit=crop',
-    description: 'Blusão de moletom gola careca cinza claro com ilustração exclusivas de artista urbano.'
+    badge: '-50% OFF',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=800&auto=format&fit=crop',
+    description: 'Bolsa tiracolo em couro bovino selecionado com detalhes dourados minimalistas e compartimento para smartphone.'
   }
 ];
 
 export const HERO_SLIDES = [
   {
     id: 1,
-    tagline: 'URBAN EDGE',
-    title: 'Jackets for the Modern Man',
-    subtitle: 'Coleção Essência 2025 • O encontro perfeito do minimalismo com o streetwear refinado.',
-    cta: 'Discover Now',
-    // Two fashion models (man and woman) in cobalt/sky blue urban setting
+    tagline: 'URBAN EDGE • ANGOLA',
+    title: 'Estilo & Identidade para o Urbano Moderno',
+    subtitle: 'Coleção Essência 2025 • O encontro perfeito entre o minimalismo contemporâneo e a atitude urbana de Luanda.',
+    cta: 'Descubra Agora',
     image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1920&auto=format&fit=crop',
   },
   {
     id: 2,
-    tagline: 'AUTUMN ELEGANCE',
-    title: 'Minimalist Streetwear & Layers',
-    subtitle: 'Peças atemporais desenvolvidas com tecidos nobres e caimento impecável.',
-    cta: 'Explore Collection',
-    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1920&auto=format&fit=crop',
+    tagline: 'ELEGÂNCIA ATEMPORAL',
+    title: 'Camadas e Peças Exclusivas Essência',
+    subtitle: 'Peças desenvolvidas com tecidos premium de altíssima durabilidade e caimento impecável.',
+    cta: 'Explorar Coleção',
+    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1920&auto=format&fit=crop',
   },
   {
     id: 3,
-    tagline: 'NEW HORIZONS',
-    title: 'Tailored Essentials for City Living',
-    subtitle: 'Design funcional, tons neutros e a liberdade do estilo de vida contemporâneo.',
-    cta: 'Shop New Season',
-    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1920&auto=format&fit=crop',
+    tagline: 'NOVA TEMPORADA',
+    title: 'Moda Urbana com Essência Africana',
+    subtitle: 'Design funcional, tons sofisticados e a energia autêntica da moda jovem e desejável.',
+    cta: 'Ver Lançamentos',
+    image: 'https://images.unsplash.com/photo-1506634572416-48cdfe530110?q=80&w=1920&auto=format&fit=crop',
   }
 ];
 
 export const PROMO_BLOCKS = [
   {
     id: 'block1',
-    tag: 'ETHEREAL ELEGANCE',
-    title: 'Where Dreams Meet Couture',
-    buttonText: 'Shop Now',
-    // Male model in white/grey hoodie looking cool
+    tag: 'ELEGÂNCIA URBANA',
+    title: 'Onde os Sonhos Encontram a Alta Costura',
+    buttonText: 'Ver Coleção',
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop',
     aspect: 'tall',
     bg: 'bg-stone-100'
   },
   {
     id: 'block2',
-    tag: 'RADIANT REVERIE',
-    title: 'Enchanting Styles for Every Woman',
-    buttonText: 'Shop Now',
-    // Female model in navy zip jacket
+    tag: 'ESTILO FEMININO',
+    title: 'Estilos Encantadores para Cada Mulher',
+    buttonText: 'Comprar Agora',
     image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop',
     aspect: 'wide',
     bg: 'bg-slate-100'
   },
   {
     id: 'block3',
-    tag: 'URBAN STRIDES',
-    title: 'Chic Footwear for City Living',
-    buttonText: 'Shop Now',
-    // White/grey clean sneakers studio product
+    tag: 'CALÇADOS PREMIUM',
+    title: 'Calçados Elegantes para a Vida na Cidade',
+    buttonText: 'Explorar Tênis',
     image: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop',
     aspect: 'medium',
     bg: 'bg-gray-50'
   },
   {
     id: 'block4',
-    tag: 'LIMITED OFFER',
-    title: 'Trendsetting Bags for Her',
+    tag: 'OFERTA ESPECIAL LUANDA',
+    title: 'Bolsas Elegantes com Atendimento Directo WhatsApp',
     highlight: '50%',
     highlightSuffix: 'OFF',
-    buttonText: 'Shop Now',
+    buttonText: 'Encomendar via WhatsApp',
     image: null,
     aspect: 'medium',
-    bg: 'bg-[#4B6B94] text-white' // Royal / steel blue tone matching the 50% banner in screenshot
+    bg: 'bg-[#1E3A8A] text-white' // Royal blue tone matching Essencia palette
   }
 ];
+
+export const ANGOLA_WHATSAPP = '244921225720';
+export const ANGOLA_WHATSAPP_DISPLAY = '921 225 720';

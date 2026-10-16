@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ArrowRight, ShieldCheck, Truck, RefreshCw, CreditCard, Share2, Globe, MessageSquare } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Truck, RefreshCw, CreditCard, Share2, Globe, MessageSquare, PhoneCall } from 'lucide-react';
+import { ANGOLA_WHATSAPP, ANGOLA_WHATSAPP_DISPLAY } from '../data/products';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -14,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#0f172a] text-white pt-16 pb-12 border-t border-slate-800">
+    <footer id="contact" className="bg-[#0f172a] text-white pt-16 pb-12 border-t border-slate-800">
 
       {/* Brand Value Props Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 pb-12 border-b border-slate-800/80">
@@ -25,8 +26,8 @@ export default function Footer() {
               <Truck className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-white">Frete Grátis</h4>
-              <p className="text-xs text-slate-400 mt-0.5">Em compras acima de R$ 300</p>
+              <h4 className="text-sm font-bold text-white">Entrega em Luanda</h4>
+              <p className="text-xs text-slate-400 mt-0.5">Entrega expressa e segura ao domicílio</p>
             </div>
           </div>
 
@@ -35,8 +36,8 @@ export default function Footer() {
               <RefreshCw className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-white">Troca Simplificada</h4>
-              <p className="text-xs text-slate-400 mt-0.5">Até 30 dias para trocas</p>
+              <h4 className="text-sm font-bold text-white">Garantia de Qualidade</h4>
+              <p className="text-xs text-slate-400 mt-0.5">Trocas simples em caso de defeito</p>
             </div>
           </div>
 
@@ -45,18 +46,18 @@ export default function Footer() {
               <ShieldCheck className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-white">Pagamento Seguro</h4>
-              <p className="text-xs text-slate-400 mt-0.5">Criptografia de 256 bits</p>
+              <h4 className="text-sm font-bold text-white">Pagamento por IBAN / TPA</h4>
+              <p className="text-xs text-slate-400 mt-0.5">Transferência Multicaixa / Express</p>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <div className="p-3 bg-slate-800/80 text-sky-400 rounded-2xl">
-              <CreditCard className="w-6 h-6" />
+            <div className="p-3 bg-slate-800/80 text-emerald-400 rounded-2xl">
+              <PhoneCall className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-white">Até 6x Sem Juros</h4>
-              <p className="text-xs text-slate-400 mt-0.5">Nos cartões de crédito</p>
+              <h4 className="text-sm font-bold text-white">WhatsApp Direto</h4>
+              <p className="text-xs text-emerald-400 font-semibold mt-0.5">{ANGOLA_WHATSAPP_DISPLAY}</p>
             </div>
           </div>
 
@@ -72,17 +73,18 @@ export default function Footer() {
               Essência
             </a>
             <p className="text-slate-400 text-sm max-w-sm leading-relaxed">
-              Moda urbana e autêntica. Design minimalista, tecidos nobres e cortes atemporais para quem busca elegância e atitude no dia a dia.
+              Moda urbana, limpa, natural e elegante. A marca de referência para o estilo de vida contemporâneo em Luanda, Angola.
             </p>
-            <div className="flex items-center space-x-3 pt-2">
-              <a href="#" className="w-9 h-9 rounded-full bg-slate-800 hover:bg-sky-500 hover:text-white transition flex items-center justify-center text-slate-300" title="Redes Sociais">
-                <Share2 className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-slate-800 hover:bg-sky-500 hover:text-white transition flex items-center justify-center text-slate-300" title="Global Site">
-                <Globe className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-slate-800 hover:bg-sky-500 hover:text-white transition flex items-center justify-center text-slate-300" title="Atendimento">
-                <MessageSquare className="w-4 h-4" />
+
+            <div className="pt-2">
+              <a
+                href={`https://wa.me/${ANGOLA_WHATSAPP}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold text-xs px-4 py-2.5 rounded-xl shadow-md transition"
+              >
+                <MessageSquare className="w-4 h-4 fill-white" />
+                Falar com Consultor no WhatsApp ({ANGOLA_WHATSAPP_DISPLAY})
               </a>
             </div>
           </div>
@@ -101,25 +103,24 @@ export default function Footer() {
 
           {/* Column 2: Information */}
           <div>
-            <h5 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Institucional</h5>
+            <h5 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Atendimento</h5>
             <ul className="space-y-2.5 text-sm text-slate-400">
-              <li><a href="#" className="hover:text-white transition">Sobre a Essência</a></li>
-              <li><a href="#" className="hover:text-white transition">Sustentabilidade</a></li>
-              <li><a href="#" className="hover:text-white transition">Lojas Físicas</a></li>
-              <li><a href="#" className="hover:text-white transition">Carreiras</a></li>
-              <li><a href="#" className="hover:text-white transition">Blog</a></li>
+              <li><span className="text-white font-medium block">Contacto Directo:</span> {ANGOLA_WHATSAPP_DISPLAY}</li>
+              <li><span className="text-white font-medium block">Localização:</span> Luanda, Angola</li>
+              <li><span className="text-white font-medium block">Horário:</span> Seg - Sáb: 08h - 18h</li>
+              <li><a href={`https://wa.me/${ANGOLA_WHATSAPP}`} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition">Atendimento via WhatsApp</a></li>
             </ul>
           </div>
 
           {/* Column 3: Newsletter */}
           <div>
-            <h5 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Newsletter</h5>
+            <h5 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Novidades</h5>
             <p className="text-xs text-slate-400 mb-4 leading-relaxed">
-              Assine para receber convites VIP para lançamentos e 10% OFF na primeira compra.
+              Subscreva para receber em primeira mão as novas coleções e promoções exclusivas para Angola.
             </p>
             {subscribed ? (
               <div className="bg-emerald-900/50 border border-emerald-500/50 text-emerald-300 p-3 rounded-xl text-xs font-semibold">
-                ✓ Inscrição confirmada com sucesso!
+                ✓ SubsSubscrição efetuada com sucesso!
               </div>
             ) : (
               <form onSubmit={handleSubscribe} className="space-y-2">
@@ -129,7 +130,7 @@ export default function Footer() {
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Seu melhor e-mail"
+                    placeholder="Seu e-mail ou contacto"
                     className="w-full bg-slate-800 border border-slate-700 text-white placeholder-slate-500 rounded-xl px-4 py-3 text-xs focus:outline-none focus:border-sky-400 transition"
                   />
                   <button
@@ -147,11 +148,11 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <div className="mt-16 pt-8 border-t border-slate-800 text-center md:flex md:justify-between items-center text-xs text-slate-500 space-y-4 md:space-y-0">
-          <p>© {new Date().getFullYear()} Essência Moda Urbana S.A. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Essência Moda Urbana Angola. Todos os direitos reservados.</p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="hover:text-slate-400 transition">Termos de Serviço</a>
             <a href="#" className="hover:text-slate-400 transition">Política de Privacidade</a>
-            <a href="#" className="hover:text-slate-400 transition">Cookies</a>
+            <a href="#" className="hover:text-slate-400 transition">Entregas em Luanda</a>
           </div>
         </div>
       </div>
